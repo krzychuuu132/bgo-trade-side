@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+@import "./variables.scss";
+@import "./global_styles.scss";
+@import "./header.scss";
+@import "./navigation.scss";
+@import "./article.scss";
+@import "./about.scss";

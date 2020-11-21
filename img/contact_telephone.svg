@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="62" viewBox="0 0 64 62">
+  <g id="Group_64" data-name="Group 64" transform="translate(-1297 -342)">
+    <ellipse id="Ellipse_70" data-name="Ellipse 70" cx="32" cy="31" rx="32" ry="31" transform="translate(1297 342)" fill="#9bd79c" opacity="0.4"/>
+    <ellipse id="Ellipse_71" data-name="Ellipse 71" cx="25" cy="24" rx="25" ry="24" transform="translate(1304 349)" fill="#43a944"/>
+    <path id="Icon_awesome-phone" data-name="Icon awesome-phone" d="M22.15,1.1,17.481.027a1.084,1.084,0,0,0-1.235.624L14.091,5.679a1.075,1.075,0,0,0,.31,1.257l2.72,2.227a16.638,16.638,0,0,1-7.955,7.955L6.94,14.4a1.076,1.076,0,0,0-1.257-.31L.655,16.242a1.09,1.09,0,0,0-.628,1.239L1.1,22.15a1.077,1.077,0,0,0,1.05.835,20.828,20.828,0,0,0,20.83-20.83A1.076,1.076,0,0,0,22.15,1.1Z" transform="translate(1317.478 359.77)" fill="#f8faf8"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+
+    &__info{
+        background-color: #344334;
+        height: 46px;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-element{
+            color: #CCCCCC;
+            font-size: 13px;
+        }
+
+        @media (min-width: 978px) {
+            padding: 0 35px;
+        }
+    }
+}
+
+.footer .header{
+    position: initial;
+    top: initial;
+    left: initial;
+    background-color: #348335;
+}
+
+.footer .navigation__link{
+    color: #DCE3DC;
+
+    &--active::before{
+        display: none;
+    }
+}
+
+.footer .header__languages{
+
+    &-language{
+        color: #A6B8A7;
+    }
+  
+}

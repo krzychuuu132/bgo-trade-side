@@ -1,0 +1,31 @@
+.products .section-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 400px;
+      grid-template-rows: auto 400px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background-color: yellow;
+  gap: 20px 50px;
+}
+
+.products__slider {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: yellowgreen;
+}
+
+.products__title {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 1;
+  background-color: red;
+}
+
+.products__details {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  background-color: lightgray;
+}
+/*# sourceMappingURL=products.css.map */

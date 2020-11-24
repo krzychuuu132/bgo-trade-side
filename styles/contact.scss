@@ -1,0 +1,93 @@
+.contact{
+    background-color: $bcgr-section-color;
+    padding: 4rem 1rem 4rem 1rem;
+}
+
+.contact .section-wrapper{
+
+}
+.contact__title{
+
+    margin-bottom: 40px;
+
+    &-text{
+        display: block;
+        font-size: 20px;
+        color: #59735A;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.contact__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-height: 500px;
+        margin-top: 4rem;
+
+    @media (min-width:978px) {
+        flex-direction: row;
+        align-items: initial;
+    }
+
+    &-content{
+        width: 600px;
+        height: 100%;
+        
+    }
+
+    &-map{
+        flex-grow: 1;
+       
+    }
+}
+
+
+.contact__container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #43A944;
+    color: white;
+
+    &-adress{
+        height: 170px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &_title{
+            margin-bottom: .4rem;
+            font-size: 16px;
+        }
+
+        &-elements{
+            display: flex;
+            flex-direction: column;
+
+            &_element{
+                display: flex;
+                font-size: 16px;
+                font-style: normal;
+
+                &:nth-last-of-type(1){
+                    margin-top: 3px;
+                }
+
+                & > img{
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    &-contacts{
+       
+        flex-grow: 1;
+    }
+}

@@ -11,7 +11,6 @@ html{
 
 body{
     font-family: 'Nunito Sans', sans-serif;
-    min-height: 400vh;
     overflow-x: hidden;
 }
 
@@ -22,3 +21,7 @@ body{
 @import "./article.scss";
 @import "./about.scss";
 @import "./offer.scss";
+@import "./products.scss";
+@import "./quality.scss";
+@import "./contact.scss";
+@import "./footer.scss";

@@ -61,7 +61,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   height: 80px;
   position: fixed;
   top: 0;
@@ -1714,7 +1714,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .footer__info-element {
     width: auto;
   }

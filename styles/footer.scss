@@ -4,15 +4,23 @@
 
     &__info{
         background-color: #344334;
-        height: 46px;
-        padding: 0 15px;
+        min-height: 46px;
+        padding: 10px 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
 
         &-element{
             color: #CCCCCC;
             font-size: 13px;
+            margin: 3px 0;
+            text-align: center;
+            width: 100%;
+
+            @media (min-width: 400px) {
+                width: auto;
+            }
         }
 
         @media (min-width: 978px) {
@@ -26,6 +34,11 @@
     top: initial;
     left: initial;
     background-color: #348335;
+    display: none;
+
+    @media (min-width: 768px) {
+        display: flex;
+    }
 }
 
 .footer .navigation__link{

@@ -36,12 +36,13 @@
     &-content{
         width: 600px;
         height: 100%;
-        
+       
     }
 
     &-map{
         flex-grow: 1;
-       
+        display: block;
+       height: 100%;
     }
 }
 
@@ -51,25 +52,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #43A944;
     color: white;
-
+   
+  
     &-adress{
-        height: 170px;
-       
+        width: 100%;
+        min-height: 170px;
+        background-color: #43A944;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-left: 6rem;
 
         &_title{
             margin-bottom: .4rem;
             font-size: 16px;
+            
         }
 
         &-elements{
             display: flex;
             flex-direction: column;
-
+            justify-content: center;
             &_element{
                 display: flex;
                 font-size: 16px;
@@ -87,7 +91,73 @@
     }
 
     &-contacts{
-       
         flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        min-width: 500px;
+        min-height: 280px;
+
+        &-contact{
+            display: flex;
+            width: 100%;
+            padding-left: 6rem;
+            
+            &-img{
+                display: block;
+                height: 120px;
+            }
+
+            &-details{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding: 0 0 15px 15px;
+
+                &_name{
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #59735A;
+                    margin-bottom: 10px;
+                }
+
+                &_telephone{
+                    color: #90A690;
+                    margin-bottom: 3px;
+                     text-decoration: none;
+                     font-size: 16px;
+                    &:nth-last-of-type(1){
+                        margin-bottom: 0;
+                    } 
+
+                    & > img{
+                        margin-right: 10px;
+                    }
+                }
+
+                &_email{
+                    color: #90A690;
+                    margin-bottom: 3px;
+                     text-decoration: none;
+                     font-size: 16px;
+                    &:nth-last-of-type(1){
+                        margin-bottom: 0;
+                    } 
+
+                    & > img{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        &-element{
+            // AFTER
+        }
+
+
     }
 }

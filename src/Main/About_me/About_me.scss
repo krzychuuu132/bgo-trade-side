@@ -1,0 +1,147 @@
+@import "../../styles/variables.scss";
+
+.about{
+    background-color: #F0F2F0;
+    padding: 170px 10px 60px 10px;
+
+    @media (min-width: 978px) {
+        padding: 170px 10px 50px 10px !important;
+     }
+
+     &__picture{
+         
+         width: 100%;
+         min-width: 300px;
+         max-width: 100%;
+         height: auto;
+
+         @media (min-width: 978px) {
+             min-width: 450px;
+         }
+
+         &-img{
+            display: block;
+            width: 100%;
+            height: 100%;
+         }
+     }
+
+     &__title{
+         font-weight: bold;
+     }
+}
+
+.about__description-content-text > p > strong{
+    color: #43A944;
+    font-weight: 600;
+
+}
+
+.about__description-content-text .new-line{
+    position: relative;
+    width: fit-content;
+    font-size: 26px;
+    color: #CCA17F;
+    margin: 25px 0 20px 0;
+    font-weight: 600;
+ 
+}
+
+.about__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    @media (min-width: 978px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: initial;
+     }
+
+    &-picture{
+     
+    }
+
+    &-content{
+        height: fit-content;
+        max-width: 650px;
+        min-width: 300px;
+        margin: 40px 0;
+
+        @media (min-width: 978px) {
+            margin: 0;
+            margin-left: 30px;
+        }
+        &-text{
+            color: #344334;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: left;
+            font-weight: 600;
+
+            @media (min-width:1024px) {
+                line-height: 32px;
+                
+            }
+        }
+    }
+    
+}
+
+.about__features{
+display: flex;
+flex-direction: column-reverse;
+align-items: center;
+padding-top: 2.5rem;
+
+@media (min-width: 978px) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 6rem;
+ }
+
+&-list{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px 0;
+    list-style: none;
+   
+   // padding: 0 15px;
+
+    @media (min-width: 978px) {
+        margin: 0;
+        margin-bottom: 50px;
+        align-items: initial;
+    }
+}
+
+&-item{
+    font-size: 16px;
+    color: $text_color;
+    margin-top: 30px;
+    font-weight: 600;
+
+    & > svg{
+        margin-right: 20px;
+    }
+
+    &:nth-child(1){
+        margin-top: 0;
+    }
+}
+}
+
+.about__features .about__picture{
+  
+
+    @media (min-width: 978px) {
+        max-width: 520px;
+    }
+}
+
+.new-line{
+    margin-top: 5px;
+}
